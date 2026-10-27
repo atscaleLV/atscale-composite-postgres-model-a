@@ -1,10 +1,10 @@
-unique_name: composite_postgres_model_a_control
+unique_name: composite_postgres_model_a_isolated
 object_type: catalog
-label: Composite PostgreSQL Lab - Model A Control
+label: Composite PostgreSQL Lab - Model A Isolated
 version: 1.8
 description: >-
-  Independently linkable sales component for the cross-repository composite
-  model control path.
+  Standalone sales component using the isolated Model A service account and
+  AtScale warehouse connection.
 aggressive_agg_promotion: false
 build_speculative_aggs: false
 dataset_properties:

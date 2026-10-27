@@ -2,7 +2,7 @@ unique_name: lab_sales_control
 object_type: model
 label: Lab Sales
 description: >-
-  One-fact sales model and Model A component of the cross-repository control.
+  One-fact sales model running through the isolated Model A service account.
 relationships:
   - unique_name: lab_sales_to_date_control
     from:
